@@ -1,0 +1,81 @@
+body {
+    background-color: #ffffff;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+}
+
+.cabeçalho_principal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+.cabeçalho_principal{
+    background-color: #500399;
+}
+
+
+.cabeçalho_principal .container .titulo {
+    font-family: "Poppins";
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.cabeçalhoprincipal_nav {
+    font-family: "Poppins";
+    font-size: 18px;
+    color: white;
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+}
+
+.frase_inspiradora {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 300;
+    font-size: 45px;
+    color: #000000;
+    padding: 20px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.descrição {
+    font-family: "Poppins";
+    font-size: 18px;
+    margin-left: 50px;
+
+}
+
+.botão {
+    transform: translateY(-10x);
+    -webkit-border-radius: 37;
+    -moz-border-radius: 37;
+    border-radius: 37px;
+    font-family: "Poppins";
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 12px;
+    background: #2f008d;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.auau {
+    border-radius: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: -650px;
+    bottom: 330px;
+    width: 400px;
+    box-shadow: 10px 5px 5px #500399;
+}
+
